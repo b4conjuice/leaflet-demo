@@ -1,0 +1,8 @@
+{
+  "name": "leaflet demo",
+  "short_name": "leaflet",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/"
+}
