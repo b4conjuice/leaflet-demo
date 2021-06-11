@@ -1,6 +1,11 @@
+import dynamic from 'next/dynamic'
+
 import Page from '@/components/page'
 import Main from '@/components/main'
-import Map from '@/components/Map'
+
+const Map = dynamic(() => import('@/components/map'), {
+  ssr: false,
+})
 
 const Home = () => (
   <Page>
